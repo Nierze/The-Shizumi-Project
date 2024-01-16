@@ -3,17 +3,31 @@
     src: url('fonts/electroharmonix.otf') format('opentype');
 }
 
+html {
+    background-color: black;
+}
+
 
 .mainTitle {
     font-family: ElectroHarmonix, "Century Gothic", sans-serif;
     text-align: center;
+    color: white;
 }
 
 #shizumi {
+    padding: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
+    border: 1px solid white;
     width: 25%;
     height: auto; /* Maintain the aspect ratio */
+}
+
+#year {
+    margin-top: 4px;
+}
+
+#mainTitle {
+    margin-bottom: 4px;
 }

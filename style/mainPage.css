@@ -7,6 +7,17 @@ html {
     background-color: black;
 }
 
+.headerSection {
+    border: 1px solid white;
+    color: white;
+    text-align: right;
+    padding: 20px;
+}
+
+.headerSection a {
+    margin: 0 24px;
+}
+
 
 .mainTitle {
     font-family: ElectroHarmonix, "Century Gothic", sans-serif;
@@ -28,6 +39,6 @@ html {
     margin-top: 4px;
 }
 
-#mainTitle {
+#title {
     margin-bottom: 4px;
 }
